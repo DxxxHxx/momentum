@@ -1,0 +1,84 @@
+.hidden{
+    display: none;
+}
+.bgimg{
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   z-index: -1;
+   display: flex;
+   opacity: 0.95;
+   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4));
+   background-size: cover;
+}
+.center{
+    /* background-color: teal; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#clock{
+    font-size: 10em;
+    color: white;
+    margin-bottom: 20px;
+}
+#login-form>input{
+    font-size: 30px;
+    background: none;
+    border: none;
+    border-bottom: 2px solid white;
+    outline: none;
+    color: white;
+}
+#login-form{
+    margin-bottom: 20px;
+}
+#todo-form>input{
+    font-size: 20px;
+    background: none;
+    border: none;
+    border-bottom: 2px solid white;
+    outline: none;
+    color: white;
+}
+#greeting{
+    color: white;
+    padding-bottom: 30px;
+}
+.delbtn{
+    background-color: tomato;
+    background: none;
+    border: none;
+}
+#todo-list{
+    list-style: none;
+    color: white;
+    font-size: 20px;
+    margin-right: 200px;
+}
+li{
+    margin-bottom: 10px;
+}
+#login-form>input::placeholder,
+#todo-form input::placeholder{
+    color: white;
+    opacity: 0.7;
+}
+.weather-box{
+    position: relative;
+}
+#weather{
+    /* background-color: teal; */
+    position: absolute;
+    bottom: 0;
+    color: white;
+    opacity: 0.8;
+}
+
+
+/*  placeholder color
+    location
+    animation */
